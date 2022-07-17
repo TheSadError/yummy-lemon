@@ -4,6 +4,7 @@ import sys
 
 
 def gateway():
+    print("[+] Starting gateway scanner...")
     for i in range(1,255):
         for j in range(1,255): 
             url = f"http://192.168.{i}.{j}"
